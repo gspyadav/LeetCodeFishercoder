@@ -25,6 +25,11 @@ package leetcode.gspycoder.solutions;
 
 public class _10_Regular_Expression_Matching {
 
+    public static void main(String args[]){
+        System.out.println(new Solution1().isMatch("abcabc","*c")); //This solution not work for this input Consider Wildcard Matching for correct logic
+    }
+
+
     public static class Solution1 {
         public boolean isMatch(String s, String p) {
             if (s == null || p == null) {
