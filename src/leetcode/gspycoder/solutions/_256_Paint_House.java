@@ -3,9 +3,12 @@ package leetcode.gspycoder.solutions;
 /**
  * _256 Paint House
  *
- * There are a row of  n  houses, each house can be painted with one of the three colors: red, blue or green. The cost of painting each house with a certain color is different. You have to paint all the houses such that no two Adjacent houses have the same color.
+ * There are a row of  n  houses, each house can be painted with one of the three colors: red, blue or green.
+ * The cost of painting each house with a certain color is different. You have to paint all the houses such that no two Adjacent houses have the same color.
  *
- * The cost of painting each house with a certain color is represented by a   cost matrix. For example,   is the cost of painting house 0 with color red;   is the cost of painting house 1 with color green, and so on... Find the Minimum cost to paint all houses.n x 3costs[0][0]costs[1][2]
+ * The cost of painting each house with a certain color is represented by a   cost matrix.
+ * For example,   is the cost of painting house 0 with color red;   is the cost of painting house 1 with color green, and so on...
+ * Find the Minimum cost to paint all houses.n x 3costs[0][0]costs[1][2]
  *
  * Note:
  * All costs are positive integers.
