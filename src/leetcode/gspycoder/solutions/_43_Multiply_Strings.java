@@ -22,6 +22,9 @@ package leetcode.gspycoder.solutions;
 
  */
 public class _43_Multiply_Strings {
+    public static void main(String args[]){
+        System.out.println(new _43_Multiply_Strings().multiply("999","999"));
+    }
 
     /**Inspired by https://discuss.leetcode.com/topic/30508/easiest-java-solution-with-graph-explanation
      * Basically, the rule we can find is that products of each two digits will land in this position in the final product:
@@ -41,6 +44,7 @@ public class _43_Multiply_Strings {
                 if (product[i + j + 1] >= 10) {
                     product[i + j + 1] %= 10;
                     product[i + j]++;
+                    System.out.println("thisProduct : "+thisProduct);
                 }
                 product[i + j] += thisProduct / 10;
                 if (product[i + j] >= 10) {

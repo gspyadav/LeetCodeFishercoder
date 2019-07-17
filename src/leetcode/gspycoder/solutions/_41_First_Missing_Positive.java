@@ -14,6 +14,10 @@ package leetcode.gspycoder.solutions;
 
 public class _41_First_Missing_Positive {
 
+    public static void main(String args[]){
+        System.out.println(new Solution1().firstMissingPositive(new int[]{3,4,-1,1}));
+    }
+
     public static class Solution1 {
         /**
          * Time: O(n) Space: O(1)
@@ -31,6 +35,9 @@ public class _41_First_Missing_Positive {
                 }
             }
 
+            for (int j = 0; j < nums.length; j++) {
+                System.out.println(nums[j]);
+            }
             for (int j = 0; j < nums.length; j++) {
                 if (nums[j] != j + 1) {
                     return j + 1;

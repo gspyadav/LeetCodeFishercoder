@@ -3,6 +3,13 @@ package leetcode.gspycoder.solutions;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 254. Factor Combinations
+ *
+ * Print all combinations of factors (Ways to factorize)
+ * Write a program to print all the combinations of factors of given number n.
+ */
+
 public class _254_Factor_Combinations {
 
     public static class Solution1 {

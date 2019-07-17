@@ -21,6 +21,9 @@ package leetcode.gspycoder.solutions;
  */
 public class _45_Jump_Game_II {
 
+    public static void main(String args[]){
+        System.out.println(new Solution1().jump(new int[]{2,3,1,1,4}));
+    }
     public static class Solution1 {
         public int jump(int[] nums) {
             int stepCount = 0;

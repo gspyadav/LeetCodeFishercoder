@@ -148,10 +148,8 @@ public class _8_String_To_Integer {
 		public int myAtoi(String str) {
 			int p = 0;
 			int result = 0;
-			while (p < str.length() && Character.isWhitespace(str.charAt(p))) {
-				p++;
-			}
-			if (p == str.length()) {
+			str = str.trim();
+			if(str.length() == 0){
 				return 0;
 			}
 			boolean negativeFlag = (str.charAt(p) == '-');

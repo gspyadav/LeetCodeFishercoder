@@ -8,6 +8,7 @@ import java.util.Map;
  *
  * Given a roman numeral, convert it to an integer.
  * Input is guaranteed to be within the range from 1 to 3999.
+ * IV --> 1+5-2 = 4
  * */
 
 public class _13_Roman_to_Integer {
