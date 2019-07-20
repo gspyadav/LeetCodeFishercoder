@@ -25,7 +25,7 @@ import java.util.Arrays;
  * You may assume all elements in the array are non-negative integers and fit in the 32-bit signed integer range.
  * Try to solve it in linear time/space.
  */
-public class _164 {
+public class _164_Maximum_Gap {
     public static class Solution1 {
         /**
          * brute force solution

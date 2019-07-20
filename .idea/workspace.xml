@@ -2,139 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11160f9f-1fab-4154-aff2-ed6dab868d9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_119_Pascals_Triangle_II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_138_Copy_List_with_Random_Pointer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_51_N_Queens.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_52_N_Queens_II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_53_Maximum_Subarray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_57_Insert_Interval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_59_Spiral_Matrix_II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_61_Rotate_List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_65_Valid_Number.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_70_Climbing_Stairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_746_Min_Cost_Climbing_Stairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_763_Partition_Labels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_79_Word_Search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_86_Partition_List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_92_Reverse_Linked_List_II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_97_Interleaving_String.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_100_Same_Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_107_Binary_Tree_Level_Order_Traversal_II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_111_Minimum_Depth_of_Binary_Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_115_Distinct_Subsequences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_118_Pascals_Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_124_Binary_Tree_Maximum_Path_Sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_131_Palindrome_Partitioning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_132_Palindrome_Partitioning_II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_133_Clone_Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_137_Single_Number_II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_140_Word_Break_II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_147_Insertion_Sort_List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_151_Reverse_Words_in_a_String.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_162_Find_Peak_Element.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_168_Excel_Sheet_Column_Title.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_174_Dungeon_Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_103$Solution1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_103.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_119$Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_119$Solution1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_119$Solution2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_119$Solution2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_119.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_119.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_120_Triangle$Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_120_Triangle$Solution1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_120_Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_120_Triangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_122$Solution1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_122$Solution2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_122.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_13_Roman_to_Integer$Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_13_Roman_to_Integer$Solution1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_13_Roman_to_Integer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_13_Roman_to_Integer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_14$Solution1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_14$Solution2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_14$Solution3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_14.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_16$Solution1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_16.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_166$Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_166$Solution1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_166.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_166.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_17$Solution1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_17.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_171$Solution1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_171.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_19$Solution1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_19$Solution2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_19$Solution3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_19.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_21.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_24.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_254_Factor_Combinations$Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_254_Factor_Combinations$Solution1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_254_Factor_Combinations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_254_Factor_Combinations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_29_Divide_Two_Integers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_29_Divide_Two_Integers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_328$Solution1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_328.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_341$Solution1$NestedIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_341$Solution1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_341.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_37$Solution1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_37.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_380$Solution1$RandomizedSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_380$Solution1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_380.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_395$Solution1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_395.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_412$Solution1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_412.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_41_First_Missing_Positive$Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_41_First_Missing_Positive$Solution1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_41_First_Missing_Positive.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_41_First_Missing_Positive.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_43.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_44_Wildcard_Matching$Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_44_Wildcard_Matching$Solution1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_44_Wildcard_Matching.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_44_Wildcard_Matching.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_454$Solution1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_454.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_45_Jump_Game_II$Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_45_Jump_Game_II$Solution1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_45_Jump_Game_II.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_45_Jump_Game_II.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_47.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_50$Solution1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_50$Solution2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_50.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_52$Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_52$Solution1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_53$Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_53$Solution1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_54$Solution1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_54.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_8_String_To_Integer$Solution2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeAndCrackingCodingInterview/leetcode/gspycoder/solutions/_8_String_To_Integer$Solution2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_119.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_120_Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_120_Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_125_Valid_Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_125_Valid_Palindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_128_Longest_Consecutive_Sequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_128_Longest_Consecutive_Sequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_129_Sum_Root_to_Leaf_Numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_129_Sum_Root_to_Leaf_Numbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_138.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_13_Roman_to_Integer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_13_Roman_to_Integer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_14_Longest_Common_Prefix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_159_Longest_Substring_with_At_Most_Two_Distinct_Characters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_159_Longest_Substring_with_At_Most_Two_Distinct_Characters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_16_3Sum_Closest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_17.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_17_Letter_Combinations_of_a_Phone_Number.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_19.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_19_Remove_Nth_Node_From_End_of_List.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_199.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_199_Binary_Tree_Right_Side_View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_21_Merge_Two_Sorted_Lists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_242.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_242_Valid_Anagram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_254_Factor_Combinations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_254_Factor_Combinations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_257_Binary_Tree_Paths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_257_Binary_Tree_Paths.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_29_Divide_Two_Integers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_29_Divide_Two_Integers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_41_First_Missing_Positive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_41_First_Missing_Positive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_43_Multiply_Strings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_43_Multiply_Strings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_449.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_449_Serialize_and_Deserialize_BST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_44_Wildcard_Matching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_44_Wildcard_Matching.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_45_Jump_Game_II.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_45_Jump_Game_II.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_51.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_52.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_53.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_535.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_535_Encode_and_Decode_TinyURL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_57.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_59.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_60.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_60_Permutation_Sequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_61.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_62.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_62_Unique_Paths.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_63.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_63_Unique_Paths_II.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_65.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_67_Add_Binary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_67_Add_Binary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_68.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_68_Text_Justification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_69.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_69_Sqrt_X.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_70.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_74.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_74_Search_a_2D_Matrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_746.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_763.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_76_Minimum_Window_Substring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_76_Minimum_Window_Substring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_79.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_80_Remove_Duplicates_from_Sorted_Array_II.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_80_Remove_Duplicates_from_Sorted_Array_II.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_86.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_8_String_To_Integer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_8_String_To_Integer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_92.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_93.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_93_Restore_IP_Addresses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_97.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_99.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_99.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_100.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_107.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_109.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_109_Convert_Sorted_List_to_Binary_Search_Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_111.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_112.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_112_Path_Sum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_113.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_113_Path_Sum_II.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_115.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_117.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_117_Populating_Next_Right_Pointers_in_Each_Node_II.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_118.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_123.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_123_Best_Time_to_Buy_and_Sell_Stock_III.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_124.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_126.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_126_Word_Ladder_II.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_131.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_132.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_133.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_134.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_134_Gas_Station.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_135.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_135_Candy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_137.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_140.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_143.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_143_Reorder_List.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_144.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_144_Binary_Tree_Preorder_Traversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_145.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_145_Binary_Tree_Postorder_Traversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_147.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_150.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_150_Evaluate_Reverse_Polish_Notation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_151.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_162.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_164.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_164_Maximum_Gap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_165.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_165_Compare_Version_Numbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_166.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_166_Fraction_to_Recurring_Decimal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_168.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_174.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_99_Recover_Binary_Search_Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_99_Recover_Binary_Search_Tree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -149,40 +65,40 @@
         <counts>
           <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="cpp" value="1" />
           <entry key="fxml" value="3" />
-          <entry key="java" value="1128" />
+          <entry key="java" value="1166" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="C++" value="1" />
-          <entry key="JAVA" value="1128" />
+          <entry key="JAVA" value="1166" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="972" />
+          <entry key="dummy" value="1082" />
           <entry key="fxml" value="1" />
-          <entry key="java" value="15765" />
+          <entry key="java" value="16005" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="15765" />
-          <entry key="PLAIN_TEXT" value="972" />
+          <entry key="JAVA" value="16005" />
+          <entry key="PLAIN_TEXT" value="1082" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -190,47 +106,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_86_Partition_List.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="21" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_92_Reverse_Linked_List_II.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_93_Restore_IP_Addresses.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_174_Dungeon_Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="36" column="17" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_97_Interleaving_String.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_99.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+            <state relative-caret-position="-49">
+              <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -267,57 +147,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_146_LRU_Cache.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_159_Longest_Substring_with_At_Most_Two_Distinct_Characters.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_254_Factor_Combinations.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_257_Binary_Tree_Paths.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_119.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_119_Pascals_Triangle_II.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_138.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_138_Copy_List_with_Random_Pointer.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_199_Binary_Tree_Right_Side_View.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_242_Valid_Anagram.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_449.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_449_Serialize_and_Deserialize_BST.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_535_Encode_and_Decode_TinyURL.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_746.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_746_Min_Cost_Climbing_Stairs.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_763.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_763_Partition_Labels.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_51_N_Queens.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_52_N_Queens_II.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_53_Maximum_Subarray.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_57.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_57_Insert_Interval.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_59.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_59_Spiral_Matrix_II.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_60.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_60_Permutation_Sequence.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_61.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_61_Rotate_List.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_62.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_62_Unique_Paths.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_63_Unique_Paths_II.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_65.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_65_Valid_Number.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_68.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_68_Text_Justification.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_69.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_69_Sqrt_X.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_70.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_70_Climbing_Stairs.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_74_Search_a_2D_Matrix.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_79.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_79_Word_Search.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_86.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_86_Partition_List.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_92.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_92_Reverse_Linked_List_II.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_93.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_93_Restore_IP_Addresses.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_97.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_97_Interleaving_String.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_99.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_107_Binary_Tree_Level_Order_Traversal_II.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_109.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_109_Convert_Sorted_List_to_Binary_Search_Tree.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_111.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_111_Minimum_Depth_of_Binary_Tree.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_112_Path_Sum.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_113_Path_Sum_II.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_115.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_115_Distinct_Subsequences.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_117_Populating_Next_Right_Pointers_in_Each_Node_II.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_118.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_118_Pascals_Triangle.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_123_Best_Time_to_Buy_and_Sell_Stock_III.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_124.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_124_Binary_Tree_Maximum_Path_Sum.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_126_Word_Ladder_II.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_131.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_131_Palindrome_Partitioning.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_133.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_133_Clone_Graph.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_134.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_134_Gas_Station.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_137.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_137_Single_Number_II.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_143_Reorder_List.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_144.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_144_Binary_Tree_Preorder_Traversal.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_147.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_147_Insertion_Sort_List.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_151.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_151_Reverse_Words_in_a_String.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_165_Compare_Version_Numbers.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_166.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_166_Fraction_to_Recurring_Decimal.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_132.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_132_Palindrome_Partitioning_II.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_135.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_135_Candy.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_140.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_140_Word_Break_II.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_145_Binary_Tree_Postorder_Traversal.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_168.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_168_Excel_Sheet_Column_Title.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_174.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_174_Dungeon_Game.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_164.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_150.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_150_Evaluate_Reverse_Polish_Notation.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_164_Maximum_Gap.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_162.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_162_Find_Peak_Element.java" />
       </list>
     </option>
   </component>
@@ -328,9 +208,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1" />
-    <option name="width" value="1918" />
-    <option name="height" value="1040" />
+    <option name="x" value="454" />
+    <option name="y" value="228" />
+    <option name="width" value="1364" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -589,7 +470,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563373400792" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563639849428" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -750,17 +631,18 @@
       <workItem from="1560739059672" duration="106475000" />
       <workItem from="1561844756003" duration="116226000" />
       <workItem from="1562773727618" duration="57121000" />
+      <workItem from="1563373259445" duration="30782000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="561029000" />
+    <option name="totallyTimeSpent" value="591811000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="0" width="1918" height="1040" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2669537" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1913646" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -797,269 +679,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_219_Contains_Duplicate_II.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_220_Contains_Duplicate_III.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-151">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_221_Maximal_Square.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="43" column="22" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_229_Majority_Element_II.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-185">
-          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_232_Implement_Queue_using_Stacks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="35" column="36" lean-forward="true" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_234_Palindrome_Linked_List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="53" column="32" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="24" lean-forward="true" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_236_Lowest_Common_Ancestor_of_a_Binary_Tree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_238_Product_of_Array_Except_Self.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-52">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_239_Sliding_Window_Maximum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="50" column="24" lean-forward="true" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_240_Search_a_2D_Matrix_II.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_254_Factor_Combinations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-106">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_257_Binary_Tree_Paths.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-320">
-          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_256_Paint_House.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="36" lean-forward="true" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_265_Paint_House_II.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="43" column="45" lean-forward="true" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_268_Missing_Number.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_276_Paint_Fence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_278_First_Bad_Version.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_279_Perfect_Squares.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="56" column="27" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_1_Two_Sum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="543" column="6" selection-start-line="543" selection-start-column="6" selection-end-line="543" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_119_Pascals_Triangle_II.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="61" column="17" lean-forward="true" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
-          <folding>
-            <element signature="e#606#607#0" expanded="true" />
-            <element signature="e#668#669#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_138_Copy_List_with_Random_Pointer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-526">
-          <caret line="6" column="37" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_199_Binary_Tree_Right_Side_View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-220">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_242_Valid_Anagram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_449_Serialize_and_Deserialize_BST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_535_Encode_and_Decode_TinyURL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="113" column="27" selection-start-line="113" selection-start-column="19" selection-end-line="113" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_746_Min_Cost_Climbing_Stairs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_763_Partition_Labels.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="47" column="9" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="47" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_51_N_Queens.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="715">
-          <caret line="80" column="40" selection-start-line="80" selection-start-column="30" selection-end-line="80" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_52_N_Queens_II.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="63" column="9" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="63" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_53_Maximum_Subarray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="9" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="31" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_57_Insert_Interval.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_56_Merge_Intervals.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_59_Spiral_Matrix_II.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-577">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_60_Permutation_Sequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="54" column="33" lean-forward="true" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_61_Rotate_List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-272">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_62_Unique_Paths.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1116,6 +735,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_66_Plus_One.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_86_Partition_List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1137,24 +763,280 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_99.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_66_Plus_One.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_93_Restore_IP_Addresses.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="36" column="17" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+        <state relative-caret-position="595">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_99_Recover_Binary_Search_Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="89" column="9" lean-forward="true" selection-start-line="53" selection-start-column="8" selection-end-line="89" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_100_Same_Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_107_Binary_Tree_Level_Order_Traversal_II.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="767">
+          <caret line="57" column="9" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="57" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_109_Convert_Sorted_List_to_Binary_Search_Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_111_Minimum_Depth_of_Binary_Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_112_Path_Sum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="9" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="34" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_113_Path_Sum_II.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="26" column="2" lean-forward="true" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_115_Distinct_Subsequences.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="53" column="26" lean-forward="true" selection-start-line="48" selection-start-column="8" selection-end-line="74" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_116_Populating_Next_Right_Pointers_in_Each_Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_117_Populating_Next_Right_Pointers_in_Each_Node_II.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="90" column="24" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_118_Pascals_Triangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_119_Pascals_Triangle_II.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="61" column="17" lean-forward="true" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_122_Best_Time_to_Buy_and_Sell_Stock_II.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="30" column="50" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_123_Best_Time_to_Buy_and_Sell_Stock_III.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="43" column="58" lean-forward="true" selection-start-line="43" selection-start-column="58" selection-end-line="43" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_124_Binary_Tree_Maximum_Path_Sum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="2" selection-start-line="8" selection-start-column="8" selection-end-line="9" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_127_WordLadder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_157.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_131_Palindrome_Partitioning.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="50" selection-start-line="24" selection-start-column="8" selection-end-line="64" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_133_Clone_Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="89" column="24" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_134_Gas_Station.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="68" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_137_Single_Number_II.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="50" column="20" selection-start-line="44" selection-start-column="8" selection-end-line="56" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_143_Reorder_List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="767">
+          <caret line="66" column="9" selection-start-line="21" selection-start-column="8" selection-end-line="66" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_144_Binary_Tree_Preorder_Traversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="49" column="9" selection-start-line="29" selection-start-column="8" selection-end-line="49" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_147_Insertion_Sort_List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_151_Reverse_Words_in_a_String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_165_Compare_Version_Numbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="63" column="20" lean-forward="true" selection-start-line="50" selection-start-column="8" selection-end-line="79" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="1198" column="23" selection-start-line="1198" selection-start-column="23" selection-end-line="1198" selection-end-column="23" />
+          <folding>
+            <element signature="e#46871#46872#0" expanded="true" />
+            <element signature="e#46910#46911#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_166_Fraction_to_Recurring_Decimal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="45" column="42" lean-forward="true" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_140_Word_Break_II.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_135_Candy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="37" column="13" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="51" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_132_Palindrome_Partitioning_II.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="34" column="27" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_145_Binary_Tree_Postorder_Traversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="44" column="20" selection-start-line="34" selection-start-column="8" selection-end-line="53" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_126_Word_Ladder_II.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1073">
+          <caret line="150" column="53" selection-start-line="150" selection-start-column="53" selection-end-line="150" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_168_Excel_Sheet_Column_Title.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_150_Evaluate_Reverse_Polish_Notation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="767">
+          <caret line="86" column="9" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="86" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_162_Find_Peak_Element.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="48" column="22" selection-start-line="41" selection-start-column="8" selection-end-line="56" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_164_Maximum_Gap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="39" column="48" lean-forward="true" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/gspycoder/solutions/_174_Dungeon_Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-49">
+          <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
         </state>
       </provider>
     </entry>

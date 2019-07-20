@@ -11,18 +11,19 @@ import java.util.Map;
  * If the fractional part is repeating, enclose the repeating part in parentheses.
  *
  * Example 1:
+ *
  * Input: numerator = 1, denominator = 2
  * Output: "0.5"
- *
  * Example 2:
+ *
  * Input: numerator = 2, denominator = 1
  * Output: "2"
- *
  * Example 3:
+ *
  * Input: numerator = 2, denominator = 3
  * Output: "0.(6)"
  */
-public class _166 {
+public class _166_Fraction_to_Recurring_Decimal {
     public static class Solution1 {
         /**
          * credit: https://discuss.leetcode.com/topic/33311/simple-and-short-solution-in-java
