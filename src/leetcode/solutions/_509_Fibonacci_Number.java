@@ -35,16 +35,16 @@ import java.util.List;
  *
  * 0 ≤ N ≤ 30.
  */
-public class _509 {
-  public static class Solution1 {
-    public int fib(int N) {
-      List<Integer> list = new ArrayList<>();
-      list.add(0);
-      list.add(1);
-      for (int i = 2; i <= N; i++) {
-        list.add(list.get(i - 1) + list.get(i - 2));
-      }
-      return list.get(N);
+public class _509_Fibonacci_Number {
+    public static class Solution1 {
+        public int fib(int N) {
+            List<Integer> list = new ArrayList<>();
+            list.add(0);
+            list.add(1);
+            for (int i = 2; i <= N; i++) {
+                list.add(list.get(i - 1) + list.get(i - 2));
+            }
+            return list.get(N);
+        }
     }
-  }
 }

@@ -1,4 +1,4 @@
-package SwapMinMax;
+package geeksforgeeks.SwapMinMax;
 
 import CtCILibrary.AssortedMethods;
 

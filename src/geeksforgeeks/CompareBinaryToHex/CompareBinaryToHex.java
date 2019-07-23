@@ -1,4 +1,4 @@
-package CompareBinaryToHex;
+package geeksforgeeks.CompareBinaryToHex;
 
 public class CompareBinaryToHex {
 

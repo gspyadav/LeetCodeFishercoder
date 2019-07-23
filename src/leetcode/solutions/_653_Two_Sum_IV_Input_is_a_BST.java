@@ -11,33 +11,36 @@ import java.util.Map;
 /**
  * 653. Two Sum IV - Input is a BST
  *
- * Given a Binary Search Tree and a target number,
- * return true if there exist two elements in the BST such that their sum is equal to the given target.
-
- Example 1:
- Input:
-    5
-   / \
-  3   6
- / \   \
-2   4   7
-
-Target = 9
-Output: True
-
-Example 2:
-Input:
-    5
-   / \
-  3   6
- / \   \
-2   4   7
-
-Target = 28
-Output: False
-
+ * Given a Binary Search Tree and a target number, return true if there exist two elements in the BST such that their sum is equal to the given target.
+ *
+ * Example 1:
+ *
+ * Input:
+ *     5
+ *    / \
+ *   3   6
+ *  / \   \
+ * 2   4   7
+ *
+ * Target = 9
+ *
+ * Output: True
+ *
+ *
+ * Example 2:
+ *
+ * Input:
+ *     5
+ *    / \
+ *   3   6
+ *  / \   \
+ * 2   4   7
+ *
+ * Target = 28
+ *
+ * Output: False
  */
-public class _653 {
+public class _653_Two_Sum_IV_Input_is_a_BST {
 
     public static class ListSolution {
         public boolean findTarget(TreeNode root, int k) {
