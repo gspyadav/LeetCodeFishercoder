@@ -16,6 +16,14 @@ package leetcode.solutions;
  */
 
 public class _31_Next_Permutation {
+
+    public static void main(String args[]){
+        int[] arr = new int[]{5,5,4,7,1,8,4,3};
+        System.out.println(java.util.Arrays.toString(arr));
+        new Solution1().nextPermutation(arr);
+        System.out.println(java.util.Arrays.toString(arr));
+    }
+
     public static class Solution1 {
         /**
          * Leetcode has a very good article to illustrate this problem and with animation:
@@ -31,6 +39,7 @@ public class _31_Next_Permutation {
             while (i >= 0 && nums[i] >= nums[i + 1]) {
                 i--;
             }
+            System.out.println("i:"+i);
             if (i >= 0) {
                 int j = nums.length - 1;
                 while (j >= 0 && nums[i] >= nums[j]) {

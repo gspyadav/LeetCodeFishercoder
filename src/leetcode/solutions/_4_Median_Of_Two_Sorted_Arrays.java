@@ -100,7 +100,8 @@ public class _4_Median_Of_Two_Sorted_Arrays {
 
                 midA = highA - chopA;
                 midB = highB - chopB;
-                if (A[midA] < B[midB]) { // here A[0 .. midA] < B[midB], and we know that B[0 .. midB-1] < B[midB], so B[midB..highB] can not possibly be within the first (len(A) + len(B) - K) elements, and can be safely removed.
+                if (A[midA] < B[midB]) { // here A[0 .. midA] < B[midB], and we know that B[0 .. midB-1] < B[midB],
+                                        // o B[midB..highB] can not possibly be within the first (len(A) + len(B) - K) elements, and can be safely removed.
                     highB = midB;
                     K = K - chopB;
                 } else {

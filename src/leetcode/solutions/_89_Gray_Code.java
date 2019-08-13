@@ -38,7 +38,7 @@ import java.util.List;
 public class _89_Gray_Code {
     public static void main(String arg[]){
         System.out.println(1<<5);
-        System.out.println(10 ^ 10>>1);
+        System.out.println(15 ^ 10>>1);
     }
 
     public static class Solution1 {

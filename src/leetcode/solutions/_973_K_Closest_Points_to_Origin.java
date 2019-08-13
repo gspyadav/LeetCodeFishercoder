@@ -35,7 +35,7 @@ import java.util.PriorityQueue;
  * -10000 < points[i][0] < 10000
  * -10000 < points[i][1] < 10000
  * */
-public class _973 {
+public class _973_K_Closest_Points_to_Origin {
 
     public static class Solution1 {
         public int[][] kClosest(int[][] points, int K) {

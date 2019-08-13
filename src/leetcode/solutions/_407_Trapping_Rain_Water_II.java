@@ -26,7 +26,7 @@ import java.util.PriorityQueue;
  After the rain, water are trapped between the blocks. The total volume of water trapped is 4.
 
  */
-public class _407 {
+public class _407_Trapping_Rain_Water_II {
     public static class Solution1 {
         /** Reference: https://discuss.leetcode.com/topic/60418/java-solution-using-priorityqueue */
         public class Cell {
