@@ -57,18 +57,10 @@ public class _98_Validate_Binary_Search_Tree {
             if (root == null) {
                 return true;
             }
-            if (root != null && (root.val <= minValue || root.val >= maxValue)) {
+            if (root.val <= minValue || root.val >= maxValue) {
                 return false;
             }
-            boolean leftResult = true;
-            boolean rightResult = true;
-            if (root.left != null) {
-                leftResult = dfs(root.left, minValue, root.val);
-            }
-            if (root.right != null) {
-                rightResult = dfs(root.right, root.val, maxValue);
-            }
-            return leftResult && rightResult;
+            return dfs(root.left, minValue, root.val) && dfs(root.right, root.val, maxValue);
         }
     }
 

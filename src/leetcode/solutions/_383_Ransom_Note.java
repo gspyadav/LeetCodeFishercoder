@@ -15,7 +15,7 @@ package leetcode.solutions;
  canConstruct("aa", "ab") -> false
  canConstruct("aa", "aab") -> true
 */
-public class _383 {
+public class _383_Ransom_Note {
 
     public static class Solution1 {
         public boolean canConstruct(String ransomNote, String magazine) {

@@ -9,7 +9,8 @@ import java.util.Stack;
  * For "(()", the longest valid parentheses substring is "()", which has length = 2.
  * Another example is ")()())", where the longest valid parentheses substring is "()()", which has length = 4.
  */
-public class _32_Longest_Valid_Parentheses {
+public class
+_32_Longest_Valid_Parentheses {
     public static class Solution1 {
         public int longestValidParentheses(String s) {
             int result = 0;

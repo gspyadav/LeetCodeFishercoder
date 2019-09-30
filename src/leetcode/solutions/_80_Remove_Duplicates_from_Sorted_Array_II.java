@@ -21,14 +21,8 @@ public class _80_Remove_Duplicates_from_Sorted_Array_II {
         public int removeDuplicates(int[] nums) {
             int counter = 0;
             int len = nums.length;
-            if (len == 0) {
-                return 0;
-            }
-            if (len == 1) {
-                return 1;
-            }
-            if (len == 2) {
-                return 2;
+            if (len <= 0) {
+                return len;
             }
 
             List<Integer> a = new ArrayList();

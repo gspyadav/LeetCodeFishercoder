@@ -1,7 +1,7 @@
 package leetcode.solutions;
 
 /**
- * 170. Two Sum III - Data structure design
+ * 170. Excel Sheet Column Number   - Data structure design
  *
  * Given a column title as appear in an Excel sheet, return its corresponding column number.
  *
@@ -27,7 +27,7 @@ package leetcode.solutions;
  * Input: "ZY"
  * Output: 701
  */
-public class _171_Two_Sum_III {
+public class _171_Excel_Sheet_Column_Number {
 
     public static class Solution1 {
         public int titleToNumber(String s) {

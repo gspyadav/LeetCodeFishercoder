@@ -3,7 +3,9 @@ package leetcode.solutions;
 import leetcode.common.classes.TreeNode;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 
 /**
  * 938. Range Sum of BST
@@ -49,6 +51,25 @@ public class _938_Range_Sum_of_BST {
             }
             dfs(root.left, l, r, list);
             dfs(root.right, l, r, list);
+        }
+        private int bfs(TreeNode root, int l, int r){
+            if(root == null){
+                return 0;
+            }
+            int sum = 0;
+            Queue<TreeNode> q = new LinkedList<>();
+            q.offer(root);
+            while(!q.isEmpty()){
+                TreeNode curr = q.poll();
+                if(l<=curr.val&& curr.val<=r){
+                    sum+=curr.val;
+                }
+                if(curr.left!=null)
+                    q.offer(curr.left);
+                if(curr.right!=null)
+                    q.offer(curr.right);
+            }
+            return sum;
         }
     }
 }

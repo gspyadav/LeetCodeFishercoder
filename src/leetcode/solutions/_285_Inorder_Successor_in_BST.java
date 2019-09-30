@@ -11,7 +11,7 @@ import java.util.TreeMap;
 Given a binary search tree and a node in it, find the in-order successor of that node in the BST.
 
 Note: If the given node has no in-order successor in the tree, return null. */
-public class _285 {
+public class _285_Inorder_Successor_in_BST {
 
     public static class Solution1 {
         /**

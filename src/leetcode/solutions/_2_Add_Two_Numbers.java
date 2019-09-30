@@ -70,4 +70,34 @@ public class _2_Add_Two_Numbers {
             return pre.next.next;
         }
     }
+
+    public static class Practice{
+        public ListNode addNumbers(ListNode num1, ListNode num2){
+            ListNode result = new ListNode(-1);
+            ListNode temp = result;
+            int carry =0;
+            while(num1!=null || num2!=null){
+                int sum = carry;
+                if(num1!=null){
+                    sum+=num1.val;
+                    num1 = num1.next;
+                }
+                if(num2!=null){
+                    sum+=num2.val;
+                    num2=num2.next;
+                }
+                temp.next = new ListNode(sum%10);
+                temp = temp.next;
+                if(sum >= 10){
+                    carry = 1;
+                }else{
+                    carry = 0;
+                }
+            }
+            if(carry>0){
+                temp.next = new ListNode(carry);
+            }
+            return result.next;
+        }
+    }
 }

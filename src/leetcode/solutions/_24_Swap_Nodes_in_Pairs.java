@@ -13,7 +13,7 @@ import leetcode.common.classes.ListNode;
  Your algorithm should use only constant space. You may not modify the values in the list, only nodes itself can be changed.
 
  */
-public class _24_Swap_Nodes_in_Pairs {
+public class  _24_Swap_Nodes_in_Pairs {
 
     public ListNode swapPairs(ListNode head) {
         if (head == null || head.next == null) {

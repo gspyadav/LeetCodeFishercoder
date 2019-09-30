@@ -1,7 +1,5 @@
 package Test;
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.*;
 
 
@@ -64,19 +62,85 @@ class SortComparator implements Comparator<Integer> {
 
 public class Solution {
     public static void main(String[] args) throws IOException {
-        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        ArrayList<Integer> songDurations = new ArrayList<>();
+        songDurations.add(20);
+        songDurations.add(70);
+        songDurations.add(90);
+        songDurations.add(30);
+        songDurations.add(60);
+        songDurations.add(110);
+        IDsOfSongs(110,songDurations);
+    }
 
-        int arrCount = Integer.parseInt(bufferedReader.readLine().trim());
+    List<List<Integer>> optimalUtilization(int maxTravelDist, List<List<Integer>> forwardRouteList, List<List<Integer>> returnRouteList)
+    {
 
-        List<Integer> arr = new ArrayList<>();
+        HashMap<Integer, List<List<Integer>>> optimalListsmap = new HashMap<>();
+        optimalListsmap.put(0, new ArrayList<>());
 
-        for (int i = 0; i < arrCount; i++) {
-            int arrItem = Integer.parseInt(bufferedReader.readLine().trim());
-            arr.add(arrItem);
+        for(int i =0; i<forwardRouteList.size();i++){
+            for(int j=0; j<returnRouteList.size();j++){
+                int totalDistance = forwardRouteList.get(i).get(1)+returnRouteList.get(j).get(1);
+                if(totalDistance <= maxTravelDist ){
+                    if(optimalListsmap.containsKey(totalDistance)){
+                        optimalListsmap.get(totalDistance).add(new ArrayList<Integer>(Arrays.asList(forwardRouteList.get(i).get(0),returnRouteList.get(j).get(0))));
+                    }else{
+                        List<List<Integer>> newList = new ArrayList<>();
+                        newList.add(new ArrayList<Integer>(Arrays.asList(forwardRouteList.get(i).get(0),returnRouteList.get(j).get(0))));
+                        optimalListsmap.put(totalDistance,newList);
+                    }
+                }
+            }
+        }
+        int maxDistance = Integer.MIN_VALUE;
+        for(Integer key : optimalListsmap.keySet()){
+            if(maxDistance<key){
+                maxDistance = key;
+            }
         }
 
-        Result.customSort(arr);
 
-        bufferedReader.close();
+
+        return maxDistance == Integer.MIN_VALUE? new ArrayList<>():optimalListsmap.get(maxDistance);
+        // WRITE YOUR CODE HERE
+    }
+
+
+
+    public static ArrayList<Integer> IDsOfSongs(int rideDuration,
+                                  ArrayList<Integer> songDurations)
+    {
+        // WRITE YOUR CODE HERE
+        ArrayList<ArrayList<Integer>> finalresults = new ArrayList<>();
+        HashMap<Integer, Integer> map = new HashMap<>();
+
+        for(int i=0; i<songDurations.size();i++){
+            map.put(songDurations.get(i),i);
+        }
+
+        for(int i=0; i<songDurations.size();i++){
+            if(map.containsKey(rideDuration-songDurations.get(i)-30) && map.get(rideDuration-songDurations.get(i)-30)!=i){
+                ArrayList<Integer> result = new ArrayList<>();
+                result.add(map.get(rideDuration-songDurations.get(i)-30));
+                result.add(i);
+                finalresults.add(result);
+            }
+        }
+        if(finalresults.size()==1){
+            return finalresults.get(0);
+        }else if(finalresults.size()>1){
+            int max = Integer.MIN_VALUE;
+            ArrayList<Integer> result = new ArrayList<>();
+            for(int i=0; i<finalresults.size();i++){
+                if(max<songDurations.get(finalresults.get(i).get(0)) || max<songDurations.get(finalresults.get(i).get(1))){
+                    max = songDurations.get(finalresults.get(i).get(0)) < songDurations.get(finalresults.get(i).get(1))?songDurations.get(finalresults.get(i).get(1)):songDurations.get(finalresults.get(i).get(0));
+                    result = finalresults.get(i);
+                }
+            }
+            return result;
+        }else{
+            return new ArrayList<>();
+        }
+
     }
 }

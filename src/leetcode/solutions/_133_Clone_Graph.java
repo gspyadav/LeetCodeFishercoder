@@ -101,4 +101,26 @@ public class _133_Clone_Graph {
             neighbors = _neighbors;
         }
     }
+
+    public static class Solutions3{
+        public Node cloneGraph(Node root){
+
+            HashMap<Integer, Node> map = new HashMap<>();
+            map.put(root.val,new Node(root.val, new ArrayList<Node>()));
+            Queue<Node> q = new LinkedList<>();
+            q.offer(root);
+
+            while(!q.isEmpty()){
+                Node curr = q.poll();
+                for(Node eachNode : curr.neighbors){
+                    if(!map.containsKey(eachNode.val)){
+                        map.put(eachNode.val,new Node(eachNode.val, new ArrayList<Node>()));
+                        q.offer(eachNode);
+                    }
+                    map.get(curr.val).neighbors.add(map.get(eachNode.val));
+                }
+            }
+            return map.get(root.val);
+        }
+    }
 }

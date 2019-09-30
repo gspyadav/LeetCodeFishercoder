@@ -65,4 +65,27 @@ public class _1021_Remove_Outermost_Parentheses {
             return sb.toString();
         }
     }
+    public static class Practice{
+        public String removeOuterParenth(String str){
+
+            List<String> lists = new ArrayList<>();
+            for(int i=1; i<str.length();i++){
+                int I = i-1, left =1;
+                while(i<str.length() && left > 0){
+                    if(str.charAt(i) == '('){
+                        left++;
+                    }else {
+                        left--;
+                    }
+                    i++;
+                }
+                lists.add(str.substring(I,i));
+            }
+            StringBuilder sb = new StringBuilder();
+            for(String st: lists){
+                sb.append(st.substring(1,st.length()-1));
+            }
+            return new String(sb);
+        }
+    }
 }

@@ -21,7 +21,7 @@ import java.util.Queue;
  * The class name of the Java function had been updated to MyStack instead of Stack.
  */
 
-public class _225 {
+public class _225_Implement_Stack_using_Queues {
 
     public static class Solution1 {
         class MyStack {

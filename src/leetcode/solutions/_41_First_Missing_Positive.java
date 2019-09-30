@@ -36,9 +36,6 @@ public class _41_First_Missing_Positive {
             }
 
             for (int j = 0; j < nums.length; j++) {
-                System.out.println(nums[j]);
-            }
-            for (int j = 0; j < nums.length; j++) {
                 if (nums[j] != j + 1) {
                     return j + 1;
                 }
