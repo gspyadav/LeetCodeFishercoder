@@ -20,7 +20,7 @@ import java.util.Map;
 
  Note:
  You may assume both s and t have the same length.*/
-public class _205 {
+public class _205_Isomorphic_Strings {
     /**space should be O(1) since it only has alphabetic letters which are capped at 52.*/
 
     public static class Solution1 {

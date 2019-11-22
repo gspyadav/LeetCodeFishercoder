@@ -1,7 +1,7 @@
 package CrackingTheCodingInterview.Q4_12_Paths_with_Sum;
-import java.util.HashMap;
-
 import CtCILibrary.TreeNode;
+
+import java.util.HashMap;
 
 public class QuestionB {
 	
@@ -15,7 +15,7 @@ public class QuestionB {
 		runningSum += node.data;
 		
 		/* Count paths with sum ending at the current node. */
-		int sum = runningSum - targetSum;
+		int sum = Math.abs(runningSum - targetSum);
 		int totalPaths = pathCount.getOrDefault(sum, 0);
 		
 		/* If runningSum equals targetSum, then one additional path starts at root. Add in this path.*/

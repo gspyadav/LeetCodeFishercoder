@@ -26,6 +26,13 @@ package leetcode.solutions;
 public class _211_Add_and_Search_Word {
     public static class Solution1 {
         public static class WordDictionary {
+            /**
+             * This is a cool/standard design for a Trie node class.
+             */
+            private class WordNode {
+                boolean isLeaf;
+                WordNode[] children = new WordNode[26];
+            }
             WordNode root;
 
             /**
@@ -90,13 +97,7 @@ public class _211_Add_and_Search_Word {
                 return search(chars, ++index, node);
             }
 
-            /**
-             * This is a cool/standard design for a Trie node class.
-             */
-            private class WordNode {
-                boolean isLeaf;
-                WordNode[] children = new WordNode[26];
-            }
+
         }
 
         /**

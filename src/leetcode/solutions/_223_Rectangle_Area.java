@@ -13,7 +13,7 @@ package leetcode.solutions;
  Output: 45
 
  Note: Assume that the total area is never beyond the maximum possible value of int.*/
-public class _223 {
+public class _223_Rectangle_Area {
 
     public static class Solution1 {
         public int computeArea(int A, int B, int C, int D, int E, int F, int G, int H) {

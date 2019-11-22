@@ -7,7 +7,7 @@ package leetcode.solutions;
  *
  * For example, given the range [5, 7], you should return 4.
  */
-public class _201 {
+public class _201_Bitwise_AND_of_Numbers_Range {
 
     public static class Solution1 {
         /**

@@ -43,7 +43,7 @@ public class _23_Merge_k_Sorted_Lists {
 
     public ListNode mergerLists(ListNode[] lists){
 
-        PriorityQueue<ListNode> heap = new PriorityQueue<>((o1, o2) -> {return o1.val-o2.val;});
+        PriorityQueue<ListNode> heap = new PriorityQueue<>((o1, o2) -> o1.val-o2.val);
         for(ListNode node : lists){
             if(node!= null){
                 heap.offer(node);

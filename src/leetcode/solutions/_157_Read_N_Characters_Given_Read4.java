@@ -24,7 +24,7 @@ package leetcode.solutions;
  * The read function will only be called once for each test case.
  *
  */
-public class _157 {
+public class _157_Read_N_Characters_Given_Read4 {
     public static class Solution1 {
         public int read(char[] buf, int n) {
             int index = 0;

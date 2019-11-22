@@ -42,6 +42,20 @@ public class _239_Sliding_Window_Maximum {
             }
             PriorityQueue<Integer> heap = new PriorityQueue<>((a, b) -> b - a);
             int[] res = new int[nums.length - k + 1];
+
+            /*for(int i =0;i<k;i++){
+                heap.offer(nums[i]);
+                if(i==k){
+                    res[0] = heap.peek();
+                }
+            }
+            for(int i =k;i<nums.length;i++){
+                heap.remove(nums[i - k]);
+                heap.offer(nums[i]);
+                res[i - k + 1] = heap.peek();
+            }
+            */
+
             for (int i = 0; i < nums.length; i++) {
                 if (i < k) {
                     heap.offer(nums[i]);
@@ -49,9 +63,7 @@ public class _239_Sliding_Window_Maximum {
                         res[0] = heap.peek();
                     }
                 } else {
-                    heap.remove(nums[i - k]);
-                    heap.offer(nums[i]);
-                    res[i - k + 1] = heap.peek();
+
                 }
             }
             return res;

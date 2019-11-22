@@ -7,6 +7,10 @@ public class StackWithMin extends Stack<NodeWithMin> {
         int newMin = Math.min(value, min());
         super.push(new NodeWithMin(value, newMin));
     }
+
+    public NodeWithMin pop(){
+        return super.pop();
+    }
     
     public int min() {
     	if (this.isEmpty()) {

@@ -26,7 +26,7 @@ import leetcode.common.classes.TreeNode;
 
  confused what "{1,#,2,3}" means? > read more on how binary tree is serialized on OJ.
  */
-public class _156 {
+public class _156_Binary_Tree_Upside_Down {
 
     public static class Solution1 {
         public TreeNode upsideDownBinaryTree(TreeNode root) {
@@ -34,8 +34,8 @@ public class _156 {
                 return root;
             }
             TreeNode newRoot = upsideDownBinaryTree(root.left);
-            root.left.left = root.right;
-            root.left.right = root;
+            root.left.left = root.right; // newRoot.left = root.right;
+            root.left.right = root; // newRoot.right = root;
             root.left = null;
             root.right = null;
             return newRoot;

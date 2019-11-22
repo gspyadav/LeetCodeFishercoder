@@ -11,7 +11,7 @@ import leetcode.common.classes.TreeNode;
  * and all nodes in the last level are as far left as possible.
  * It can have between 1 and 2h nodes inclusive at the last level h.
  */
-public class _222 {
+public class _222_Count_Complete_Tree_Nodes {
 
     public static class Solution1 {
         /**
@@ -21,7 +21,7 @@ public class _222 {
             int leftH = getLeftHeight(root);
             int rightH = getRightHeight(root);
             if (leftH == rightH) {
-                return (1 << leftH) - 1;
+                return (1 << leftH) - 1;    //2^h - 1
             } else {
                 return 1 + countNodes(root.left) + countNodes(root.right);
             }
