@@ -6,7 +6,7 @@ package leetcode.solutions;
  * Given an integer, write a function to determine if it is a power of two.
  */
 
-public class _231 {
+public class _231_Power_of_Two {
     public static class Solution1 {
         public boolean isPowerOfTwo(int n) {
             //after writing out the binary representation of some numbers: 1,2,4,8,16,32, you can easily figure out that

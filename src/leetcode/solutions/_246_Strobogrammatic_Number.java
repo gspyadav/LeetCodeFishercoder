@@ -13,7 +13,7 @@ import java.util.Set;
  * For example, the numbers "69", "88", and "818" are all strobogrammatic.
  */
 
-public class _246 {
+public class _246_Strobogrammatic_Number {
 
     public static class Solution1 {
         public boolean isStrobogrammatic(String num) {

@@ -10,7 +10,7 @@ import java.util.List;
  *
  * For example, given [0,1,2,4,5,7], return ["0->2","4->5","7"].
  */
-public class _228 {
+public class _228_Summary_Ranges {
 
     public static class Solution1 {
         public List<String> summaryRanges(int[] nums) {
